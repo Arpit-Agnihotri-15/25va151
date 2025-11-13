@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+<body>
+    <!--html table start -->
+    <table border = "4" width = "100%" align = "centre">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Arpit Agnihotri</td>
+            <td>6394716649</td>
+            <td>CSE-15</td>         
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Arpit Patel</td>
+            <td>1234567890</td>
+            <td>CSE-15</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Arnav Vats</td>
+            <td>0987654321</td>
+            <td>CSE-15</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Arman Khan</td>
+            <td>1122334455</td>
+            <td>CSE-15</td>
+        </tr>
+        
+    </table>
+    <!--html table end -->
+
+    <br><br>
+
+    <table border = "4" width = "100%" align = "centre">
+        <tr>
+            <th rowspan="2">S.No</th>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Phone</th>
+            <th rowspan="2">Course</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Arpit</td>
+            <td>Agnihotri</td>
+            <td>6394716649</td>
+            <td>CSE-15</td>         
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Arpit</td>
+            <td>Patel</td>
+            <td>1234567890</td>
+            <td>CSE-15</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Arnav</td>
+            <td>Vats</td>
+            <td>0987654321</td>
+            <td>CSE-15</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Arman</td>
+            <td>Khan</td>
+            <td>1122334455</td>
+            <td>CSE-15</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!--html table start -->
+    <table border="4" width="100%" align="center">
+    <tr>
+        <th>S.No</th>
+        <th>First Name</th>
+        <th>Surname</th>
+        <th>Phone</th>
+        <th>Course</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td rowspan="2" align="center">Arpit</td>
+        <td align="center">Agnihotri</td>
+        <td align="center">6394716649</td>
+        <td align="center">CSE-15</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <!-- First Name cell merged above -->
+        <td align="center">Patel</td>
+        <td align="center">1234567890</td>
+        <td align="center">CSE-15</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td align="center">Arnav</td>
+        <td align="center">Vats</td>
+        <td align="center">0987654321</td>
+        <td align="center">CSE-15</td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td align="center">Arman</td>
+        <td align="center">Khan</td>
+        <td align="center">1122334455</td>
+        <td align="center">CSE-15</td>
+    </tr>
+</table>
+    <!--html table end -->
+
+<br><br>
+    <h1>HTML Table Assignment</h1>
+    <br>
+    <h2>Question 1</h2>
+<br><br>
+
+    <!--html table start Q1 -->
+    <table border = "2" width = "100%" align = "centre">
+        <tr>
+            <th>column 01</th>
+            <th>column 02</th>
+            <th>column 03</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 01 Cell 01</td>
+            <td>Row 01 Cell 02</td>
+            <td>Row 01 Cell 03</td>
+        </tr>
+        <tr>
+            <td>Row 02 Cell 02</td>
+            <td>Row 02 Cell 03</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 03 Cell 01</td>
+        </tr>
+    </table>
+    <!--html table end Q1 -->
+
+<br><br>
+<h2>Question 2</h2>
+<br><br>
+
+    <!--html table start Q2 -->
+    <table border = "2" width = "100%" align = "centre">
+      
+    <tr>
+        <th>Level1</th>
+        <th>Level2</th>
+        <th>Level3</th>
+        <th>Info</th>
+        <th>Name</th>
+    </tr>
+    <tr>
+        <td rowspan="6">System</td>
+        <td rowspan="4">System Apps</td>
+        <td rowspan="3">SystemEnv</td>
+        <td>App Test</td>
+        <td>foo</td>
+    </tr>
+    <tr>
+        <td>App Memory</td>
+        <td>foo</td>
+    </tr>
+    <tr>
+        <td>App Test</td>
+        <td>bar</td>
+    </tr>
+    <tr>
+        <td rowspan="1">SystemEnv2</td>
+        <td>App Test</td>
+        <td>bar</td>
+    </tr>
+    <tr>
+        <td rowspan="2">System Memory</td>
+        <td rowspan="2">Memory Test</td>
+        <td>Memory Func</td>
+        <td>foo</td>
+    </tr>
+    <tr>
+        <td>Apes Test</td>
+        <td>foo</td>
+    </tr>
+</table>
+    <!--html table end Q2 -->
+
+<br><br>
+<h2>Question 3</h2>
+<br><br>
+
+    <!--html table start Q3 -->
+ <!--   <table border = "2" width = "100%" align = "centre">
+        <tr>
+            <th rowspan = "6">System</th>
+            <th rowspan = "4">System Apps</th>
+            <th rowspan = "3">SystemEnv</th>
+            <th>App Test</th>
+            
+        </tr>
+        <tr>
+            <td>App Memory</td>
+            <td>App Test</td>
+        </tr>
+      <tr>
+            <td>SystemEnv 02</td>
+            <td>System Test</td>
+        </tr>
+        <tr>
+            <td rowspan = "2">System Memory</td>
+            <td rowspan = "2">Memory Test</td>
+            <td>Memory Func</td>
+        </tr>
+        <tr>
+            <td>Apes Test</td>
+        </tr> 
+        <tr>
+            <th rowspan = "6">App Test</th>
+        </tr>
+        
+    </table>
+-->
+    <!--html table end Q3 -->
+</body>
+</html>

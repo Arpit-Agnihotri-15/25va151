@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    background-image: url(images.jpeg)/* no repeat top left*/;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: repeat-y; 
+    background-position: top right /* 40px 20px */;
+  /*  background :url(BBC_Logo.png) repeat-x top 300px right chocolate;
+      background-size: cover;*/
+
+}
+html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 0px 10px #0000;
+
+}
+
+p:nth-child(2){
+    color: chartreuse;
+}
+p:nth-child(3){
+    color: crimson;
+}
+p:nth-child(4){
+    color: darkblue;
+}
+img{
+    float: right;
+    margin-right: 20px;
+    border: 10px solid#999;
+    border-radius: 50%;
+}
