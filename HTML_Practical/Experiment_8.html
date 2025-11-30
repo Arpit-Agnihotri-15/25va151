@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 8</title>
+
+    <style>
+        /* Base and Container Setup */
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;    /* Center vertically */
+            height: 100vh;
+            margin: 0;
+            flex-direction: column; /* Ensure main content is arranged vertically */
+        }
+
+        /* Wrapper for the Heading, Card, and Back Link */
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Heading Style */
+        .main-container h2 {
+            margin-bottom: 25px; /* Space between heading and card */
+            color: #333;
+            font-size: 1.8em;
+            text-align: center;
+        }
+
+        /* Back Link Style */
+        .back-link {
+            margin-top: 20px; /* Space between card and link */
+            font-size: 1.1em;
+            color: #2c3e50; /* A dark, readable color */
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: 1px solid #bdc3c7;
+            transition: background-color 0.3s;
+        }
+
+        .back-link:hover {
+            background-color: #ecf0f1;
+        }
+
+        /* Card Style (mostly preserved from your original code) */
+        .card {
+            width: 350px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px; /* Slightly more rounded */
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1); /* Better shadow */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #3498db; /* Blue border */
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .info h2 {
+            margin: 5px 0;
+            color: #2c3e50;
+        }
+
+        .info p {
+            margin: 4px 0;
+            font-size: 1.05em;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The main-container ensures the elements are stacked and centered together -->
+    <div class="main-container">
+        
+        <!-- Heading: Top Middle -->
+        <h2><b><u>Student Profile Card Using Flexbox</u></b></h2>
+        
+        <!-- Card: Middle -->
+        <div class="card">
+            <img src="PHOTO.jpeg" alt="Student Photo" class="profile-pic" 
+                 onerror="this.onerror=null; this.src='https://placehold.co/120x120/3498db/ffffff?text=AP'">
+
+            <div class="info">
+                <h2>Arpit Agnihotri</h2>
+                <p><b>Course:</b> B.Tech CSE</p>
+                <p><b>Year:</b> 1st Year</p>
+                <p><b>College:</b> ABES Engineering College</p>
+            </div>
+        </div>
+
+        <!-- Go Back Link: Bottom Middle -->
+    <!--    <a href="Experiment_10.html" class="back-link">← Back to Home</a> --> 
+        <!-- comment for now -->
+    </div>
+
+</body>
+</html>
