@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 7</title>
+
+    <style>
+        /* BLOCK EXAMPLE */
+        h1 {
+            display: block;
+            background: #e3e3e3;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* INLINE EXAMPLE */
+        .inline-example span {
+            display: inline;
+            background: yellow;
+        }
+
+        /* INLINE-BLOCK NAVIGATION MENU */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            padding: 10px 20px;
+            background: lightblue;
+            margin-right: 5px;
+            border: 1px solid #444;
+        }
+
+        /* FLOAT EXAMPLE */
+        .float-box {
+            width: 150px;
+            height: 150px;
+            background: lightgreen;
+            border: 2px solid black;
+            float: left;
+            margin-right: 10px;
+        }
+
+        /* CLEAR EXAMPLE */
+        .clear {
+            clear: both;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Navigation Menu Demo</h1>
+
+    <h2>1. Block Element Example</h2>
+    <p>The heading above (h1) is a block-level element. It takes the full width.</p>
+
+    <hr>
+
+    <h2>2. Inline Element Example</h2>
+    <p class="inline-example">
+        Inline text example:
+        <span>Item 1</span>
+        <span>Item 2</span>
+        <span>Item 3</span>
+        (These do NOT start on new lines.)
+    </p>
+
+    <hr>
+
+    <h2>3. Inline-block Navigation Menu</h2>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Gallery</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>4. Float Example</h2>
+    <div class="float-box"></div>
+    <p>
+        This green box is floated to the left.  
+        Text flows around it because float allows the element to move out of normal flow.
+    </p>
+
+    <div class="clear"></div>
+
+    <hr>
+
+    <h2>5. Clear Example</h2>
+    <p>
+        The line above uses <b>clear: both;</b> so it moves below the floated box.
+    </p>
+
+</body>
+</html>
