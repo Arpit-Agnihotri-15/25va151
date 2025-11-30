@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment 6</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e9eef3;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 20px;
+    }
+
+    .product-img {
+      width: 350px;
+      height: 350px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+
+    .product-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .details {
+      flex: 1;
+    }
+
+    h1 {
+      font-size: 26px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #007b00;
+      font-size: 22px;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .desc {
+      font-size: 16px;
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    .btn {
+      background: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    .specs {
+      border: 1px solid #ccc;
+      padding: 12px;
+      margin-top: 20px;
+      border-radius: 6px;
+      background: #f9fbfc;
+    }
+
+    ul {
+      margin: 5px 0 0 18px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="product-img">
+    <img src="sneakers.webp" alt="Product Image">
+  </div>
+
+  <div class="details">
+    <h1>Classic Sneakers</h1>
+    <div class="price">₹2,999</div>
+
+    <p class="desc">
+      These classic sneakers provide comfort and durability. Perfect for everyday wear, they feature a breathable mesh upper and a cushioned sole for all-day support.
+    </p>
+
+    <button class="btn">Add to Cart</button>
+
+    <div class="specs">
+      <strong>Specifications:</strong>
+      <ul>
+        <li>Material: Mesh + Synthetic</li>
+        <li>Available Sizes: 6–11</li>
+        <li>Color: White / Grey</li>
+        <li>Weight: Lightweight</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
